@@ -1,0 +1,47 @@
+:root {
+    --h1Color : #F3BA2D;
+    --h2Color : rgb(81, 251, 152);
+    --borderColor : #D5D5D5;
+    --borderOpacity : 0.10;
+    --fontFamilly : 'Dosis', sans-serif;
+    --fontColor : #242424;
+    --addColor : rgb(151, 119, 226);
+    --suppColor : rgb(226, 119, 217);
+    --h1Size : 3.125rem;
+    --basicdSize : 1rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fontFamilly);
+    font-size: var(--basicdSize);
+    color:var(--borderColor);
+    background-color: var(--fontColor);
+}
+
+h1{
+    color: var(--h1Color);
+}
+
+h2{
+    color: var(--h2Color);
+}
+
+.add{
+    color : var(--addColor);
+}
+
+.supp{
+    color : var(--suppColor);
+}
+
+.block{
+    border: 1px outset rgba(53,163,164,0.44);
+    border-radius: 6px;
+    background-color: var(--fontColor);
+    padding: 10px;
+    margin: 5px ;
+    -webkit-box-shadow: 10px 6px 15px -8px #000000; 
+    box-shadow: 10px 6px 15px -8px #000000;
+}
