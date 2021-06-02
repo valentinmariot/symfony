@@ -1,8 +1,8 @@
-#Cours Symfony 
+# Cours Symfony 
 
 Révisions POO avant Symfony
 
-##Notes:
+## Notes:
 
 • __ "__toString()"__ se déclanche lorsque l'objet est traité comme une chaine de caractères.
 
@@ -16,4 +16,4 @@ Révisions POO avant Symfony
 
 • Pour appeler une variable static à l'extérieur d'une class, on utilise la syntaxe *NomDeLaClass::$variable*.
 
-• On __implémente une interface mais on hérite d'une class. 
+• On __implémente__ une interface mais on __hérite__ d'une class. 
