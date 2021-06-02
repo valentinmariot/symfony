@@ -4,7 +4,7 @@ Révisions POO avant Symfony
 
 ## Notes:
 
-• __ "__toString()"__ se déclanche lorsque l'objet est traité comme une chaine de caractères.
+• __ __toString()__ se déclanche lorsque l'objet est traité comme une chaine de caractères.
 
 • Un __namespace__ se trouve obligatoirement en deuxième ligne du fichier PHP, directement sous l'ouverture de la balise <?php .
 
